@@ -1,0 +1,961 @@
+:root {
+    --swiper-navigation-size: 44px;
+}
+
+:root {
+    --swiper-theme-color: #007aff;
+}
+
+html, body {
+    color: #333;
+    background: #ededed;
+}
+
+html {
+    -webkit-text-size-adjust: none;
+    -moz-text-size-adjust: none;
+    -ms-text-size-adjust: none;
+}
+
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+html {
+    -webkit-font-smoothing: antialiased;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    position: relative;
+    min-height: 100%;
+}
+
+* {
+    max-height: 100000px;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+:root {
+    view-transition-name: root;
+}
+
+html {
+    display: block;
+    -webkit-locale: "ko";
+}
+
+*:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    padding: 62px 0;
+    min-width: 340px;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    font-size: 12px;
+    line-height: 1.8;
+}
+
+.top-start{
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+    top: 0;
+    border-width: 0 0 1px;
+    position: fixed;
+    right: 0;
+    left: 0;
+    min-height: 61px;
+    margin-bottom: 25px;
+    border: 1px solid transparent;
+    display: block;
+    border-radius: 0;
+}
+
+
+.top-bannal{
+    position: relative;
+
+    margin: 0;
+    padding: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.top-bannal-in{
+
+    vertical-align: middle;
+    height: 61px;
+    padding: 6px 12px 0 10px;
+    margin: 0;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.top-bannal-in-logo{
+    margin-left: -5px;
+    color: #ffffff;
+    display: table-cell;
+    padding: 12px 10px 0 5px;
+    font-size: 18px;
+    line-height: 25px;
+    height: 40px;
+    vertical-align: top;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.bannal-logo{
+    width: 85px;
+    display: block;
+    border: 0;
+    vertical-align: middle;
+}
+
+.search-box{
+
+    display: table-cell;
+    width: 100000px;
+    border-color: #649a3a;
+    margin: 0;
+    padding: 0;
+    padding-top: 5px;
+}
+
+.search-box-in{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    padding-top: 2px;
+}
+
+.search-box-in-input{
+    background: url(//recipe1.ezmember.co.kr/img/mobile/2022/icon_search.png) #f8f8fa 12px 11px no-repeat;
+    background-size: 18px;
+    border: none;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    height: 40px;
+    color: #999;
+    padding: 2px 0 4px 34px;
+
+    border-radius: 8px;
+
+    display: block;
+    width: 100%;
+    margin: 0;
+    font: inherit;
+    font-family: inherit;
+    font-size: 14px;
+    margin-top: -2px;
+    line-height: 1;
+}
+
+.main{
+    background: #fff;
+    max-width: 640px;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.main::before{
+    content: " ";
+    display: table;
+}
+
+.main-bannel{
+    touch-action: pan-y;
+    position: relative;
+    margin: 12px 12px 34px;
+    padding: 0;
+}
+
+.main-bannel-in{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    transition-property: transform;
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+}
+
+.main-bannel-in-img{
+    transform: translateZ(0);
+    backface-visibility: hidden;
+    flex-shrink: 0;
+    position: relative;
+    transition-property: transform;
+    margin: 0;
+    padding: 0;
+}
+
+.main-bannel-in-img-a{
+    color: inherit;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.main-bannel-in-img-img{
+    border-radius: 8px;
+    width: 100%;
+    border: 0;
+    vertical-align: middle;
+}
+
+.main-bannel-in-number{
+    position: absolute;
+    right: 16px;
+    bottom: 12px;
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    line-height: 1;
+    padding: 4px 10px 6px 12px;
+    letter-spacing: 0.2em;
+    text-align: center;
+    font-size: 11px;
+    margin: 0;
+}
+
+.main-bannel-in-number-in{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.main-my{
+    padding-bottom: 30px;
+    display: block;
+}
+
+.main-my-top{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: start;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 14px 6px;
+    font-size: 0px;
+    line-height: 1;
+    margin: 0
+}
+
+.main-my-top-title{
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+    position: relative;
+    width: 100%;
+    min-height: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.main-my-top-title b {
+    font-size: 19px;
+    color: #000;
+    letter-spacing: -0.05em;
+    font-weight: bold;
+}
+
+.main-my-top-title p {
+    color: #999;
+    font-size: 13px;
+    letter-spacing: -0.02em;
+    padding: 8px 0 0 1px;
+    margin: 0;
+}
+
+.main-my-top-add{
+    margin: 0;
+    padding: 0;
+}
+
+.main-my-top-add a{
+    color: #aaa;
+    font-size: 13px;
+    display: block;
+    padding: 2px 4px;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.main-my-bottem{
+    padding: 18px 10px 0;
+    margin: 0;
+}
+
+.main-my-bottem-ul{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main-my-bottem-ul-re{
+    padding: 0 5px 24px;
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0;
+    list-style: none;
+}
+
+.main-my-bottem-ul-re-img{
+    display: block;
+    vertical-align: top;
+    width: 100%;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.main-my-bottem-ul-re-img-a{
+    color: inherit;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.main-my-bottem-ul-re-img-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 0;
+    vertical-align: middle;
+}
+
+.main-my-bottem-ul-re-con{
+    display: block;
+    vertical-align: top;
+    width: 100%;
+    padding: 12px 0 0 4px;
+    margin: 0;
+}
+
+.main-my-bottem-ul-re-con-title{
+    font-size: 14px;
+    letter-spacing: -0.04em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    word-wrap: break-word;
+    white-space: normal;
+    line-height: 1.4;
+    margin: 0;
+    padding: 0;
+    -webkit-line-clamp: 2;
+    margin-bottom: 8px;
+}
+
+.main-my-bottem-ul-re-con-title-a{
+    color: inherit;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.main-my-bottem-ul-re-con-name{
+    line-height: 1;
+    color: #999; 
+    margin: 0;
+    padding: 0;
+    padding-bottom: 8px;
+}
+
+.main-my-bottem-ul-re-con-name-a{
+    color: #999;
+    font-size: 12px;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.main-my-bottem-ul-re-con-like{
+    line-height: 1.2;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 8px;
+}
+
+.main-my-bottem-ul-re-con-like-in{
+    line-height: 1;
+    background: url(//recipe1.ezmember.co.kr/img/mobile/icon_star2_on.png) left top no-repeat;
+    background-size: 14px;
+    padding: 0 4px 0 16px;
+    display: inline-block;
+    font-size: 13px;
+    margin: 0;
+}
+
+.main-my-bottem-ul-re-con-like-in b{
+    margin-right: 2px;
+    font-size: 13px;
+    vertical-align: 0;
+    font-family: 'Roboto';
+    font-weight: 500;
+}
+
+.main-hot{
+    padding-bottom: 30px;
+    display: block;
+}
+
+.main-hot-top{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: start;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 14px 6px;
+    font-size: 0px;
+    line-height: 1;
+    margin: 0;
+}
+
+.main-hot-top-title{
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+    position: relative;
+    width: 100%;
+    min-height: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.main-hot-top-title b {
+    font-size: 19px;
+    color: #000;
+    letter-spacing: -0.05em;
+    font-weight: bold;
+}
+
+.main-hot-top-title p {
+    color: #999;
+    font-size: 13px;
+    letter-spacing: -0.02em;
+    padding: 8px 0 0 1px;
+    margin: 0;
+}
+
+.main-hot-top-add{
+    margin: 0;
+    padding: 0;
+}
+
+.main-hot-top-add a{
+    color: #aaa;
+    font-size: 13px;
+    display: block;
+    padding: 2px 4px;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.main-hot-con{
+    padding: 24px 0 0;
+    margin: 0;
+}
+
+.main-hot-con-in{
+    width: 100%;
+    display: block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main-hot-con-in-warp{
+    padding: 0 1px 24px 5px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0;
+    list-style: none;
+}
+
+.main-hot-con-in-warp-img{
+    display: block;
+    vertical-align: top;
+    width: 100%;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.main-hot-con-in-warp-img-a{
+    color: inherit;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.main-hot-con-in-warp-img-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 0;
+    vertical-align: middle;
+}
+
+.main-hot-bottem{
+    display: block;
+    vertical-align: top;
+    width: 100%;
+    padding: 12px 0 0 4px;
+    margin: 0;
+}
+
+.main-hot-bottem-title{
+    -webkit-line-clamp: 2;
+    font-size: 14px;
+    letter-spacing: -0.04em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    word-wrap: break-word;
+    white-space: normal;
+    line-height: 1.4;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 8px;
+}
+
+.main-hot-bottem-title-a{
+    color: inherit;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.main-hot-bottem-like{
+    line-height: 1.2;
+    padding-bottom: 8px;
+    margin: 0;
+    padding: 0;
+}
+
+.main-hot-bottem-like-in{
+    line-height: 1;
+    background: url(//recipe1.ezmember.co.kr/img/mobile/icon_star2_on.png) left top no-repeat;
+    background-size: 14px;
+    padding: 0 4px 0 16px;
+    display: inline-block;
+    font-size: 13px;
+    margin: 0;
+}
+
+.main-hot-bottem-like-in b{
+    margin-right: 2px;
+    font-size: 13px;
+    vertical-align: 0;
+    font-family: 'Roboto';
+    font-weight: 500;
+}
+
+.main-hot-con-in-warp-add{
+    margin-right: 14px;
+    padding: 0 1px 24px 5px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0;
+    list-style: none;
+}
+
+.main-hot-con-in-warp-add-title{
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.main-hot-con-in-warp-add-title-a{
+    display: block;
+    text-align: center;
+    padding: 20px 25px;
+    color: inherit;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.main-hot-con-in-warp-add-title-img{
+    width: 52px;
+    border: 0;
+    vertical-align: middle;
+}
+
+.main-hot-con-in-warp-add-title-p{
+    padding: 8px 0;
+    color: #aaa;
+    font-size: 14px;
+    line-height: 1;
+    margin: 0;
+}
+
+.main-maybe{
+    padding-bottom: 30px;
+    display: block;
+}
+
+.main-maybe-top{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: start;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 14px 6px;
+    font-size: 0px;
+    line-height: 1;
+    margin: 0;
+}
+
+.main-maybe-top-in{
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+    position: relative;
+    width: 100%;
+    min-height: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.main-maybe-top-in b {
+    font-size: 19px;
+    color: #000;
+    letter-spacing: -0.05em;
+    font-weight: bold;
+}
+
+.main-maybe-top-in p {
+    color: #999;
+    font-size: 13px;
+    letter-spacing: -0.02em;
+    padding: 8px 0 0 1px;
+    margin: 0;
+}
+
+.main-maybe-top-add{
+    margin: 0;
+    padding: 0;
+}
+
+.main-maybe-top-add a{
+    color: #aaa;
+    font-size: 13px;
+    display: block;
+    padding: 2px 4px;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.main-maybe-con{
+    margin: 0;
+    padding: 0;
+    padding-top: 24px;
+}
+
+.main-maybe-con-ul{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0 10px;
+    list-style: none;
+    margin: 0;
+}
+
+.main-maybe-con-li{
+    padding: 0 8px 0;
+    position: relative;
+    margin: 0;
+    list-style: none;
+    width: 100%;
+    margin-bottom: 25px;
+    padding-left: 6px;
+}
+
+.main-maybe-con-li-a{
+    position: absolute;
+    left: 4px;
+    top: 0;
+    bottom: 0;
+    right: 4px;
+    z-index: 2;
+    color: inherit;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.main-maybe-con-li-img{
+    width: 140px;
+    height: 140px;
+    display: table-cell;
+    position: relative;
+    overflow: hidden;
+    line-height: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.main-maybe-con-li-img-in{
+    width: 100%;
+    border-radius: 8px;
+    object-fit: cover;
+    border: 0;
+    vertical-align: middle;
+}
+
+.main-maybe-con-li-title{
+    display: table-cell;
+    vertical-align: top;
+    padding: 0 0 0 16px;
+    margin: 0;
+}
+
+.main-maybe-con-li-title-name{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    word-wrap: break-word;
+    white-space: normal;
+    line-height: 1.4;
+    margin: 0 0 8px 0;
+    text-align: left;
+    font-size: 14px;
+    color: #222;
+    padding: 0;
+}
+
+.main-maybe-con-li-price{
+    padding: 0;
+    padding-bottom: 8px;
+    line-height: 1;
+    margin: 0;
+}
+
+.main-maybe-con-li-price-st{
+    color: #222;
+    font-weight: bold;
+}
+
+.main-maybe-con-li-price-st span {
+    font-size: 18px;
+    color: #000;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    font-family: 'Roboto';
+}
+
+.main-maybe-con-li-price-st small {
+    font-size: 16px;
+}
+
+.main-maybe-con-li-price-st span::before {
+    content: '';
+}
+
+.main-maybe-con-li-like{
+    margin-left: -1px;
+    line-height: 1;
+    margin-bottom: 10px;
+    margin: 0;
+    padding: 0;
+}
+
+.main-maybe-con-li-like-in{
+    background: url(//recipe1.ezmember.co.kr/img/mobile/icon_star6_on.png?v.2) 1px center no-repeat;
+    background-size: 76px;
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    margin-right: 2px;
+    vertical-align: sub;
+}
+
+.main-maybe-con-li-like-in::before {
+    content: '';
+}
+
+.main-maybe-con-li-like-in-b{
+    vertical-align: 0;
+    margin-right: 2px;
+    font-size: 13px;
+    font-family: 'Roboto';
+    font-weight: 500;
+}
+
+.main-maybe-con-add{
+    margin: 0;
+}
+
+.main-maybe-con-add-a{
+    display: block;
+    text-align: center;
+    padding: 15px 0;
+    background: #ededed;
+    color: #222;
+    font-size: 14px;
+    border-radius: 6px;
+    line-height: 1;
+    text-decoration: none;
+}
+
+.bottem{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #fff;
+    border-top: 1px solid #dadada;
+    height: 56px;
+    margin: 0;
+    padding: 0;
+}
+
+.bottem-ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 0 2px;
+    list-style: none;
+}
+
+.bottem-ul-home{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.bottem-ul-home-a{
+    background: url(//recipe1.ezmember.co.kr/img/mobile/2022/icon_footer_home_on.png) no-repeat center 1px;
+    background-size: 23px auto;
+    color: #46ae4f;
+    display: block;
+    padding-top: 26px;
+    width: 100%;
+    text-align: center;
+    font-size: 11px;
+}
+
+.bottem-ul-re{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.bottem-ul-re-a{
+    background: url(//recipe1.ezmember.co.kr/img/mobile/2022/icon_footer_rcp.png) no-repeat center 1px;
+    background-size: 23px auto;
+    display: block;
+    padding-top: 26px;
+    width: 100%;
+    text-align: center;
+    font-size: 11px;
+    color: #000;
+    text-decoration: none;
+}
+
+.bottem-ul-like{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.bottem-ul-like-a{
+    background: url(//recipe1.ezmember.co.kr/img/mobile/2022/icon_footer_scrap.png) no-repeat center 1px;
+    background-size: 23px auto;
+    display: block;
+    padding-top: 26px;
+    width: 100%;
+    text-align: center;
+    font-size: 11px;
+    color: #000;
+    text-decoration: none;
+}
+
+.bottem-ul-my{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.bottem-ul-my-a{
+    background: url(//recipe1.ezmember.co.kr/img/mobile/2022/icon_footer_my.png) no-repeat center 1px;
+    background-size: 23px auto;
+    display: block;
+    padding-top: 26px;
+    width: 100%;
+    text-align: center;
+    font-size: 11px;
+    color: #000;
+    text-decoration: none;
+}
