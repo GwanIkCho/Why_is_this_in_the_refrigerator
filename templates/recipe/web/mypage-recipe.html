@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>마이페이지 :: 내 냉장고</title>
+        <title>마이페이지 :: 내 레시피</title>
         <link
             rel="shortcut icon"
             href="/staticfiles/images/teenplay_logo/logo1.png"
@@ -11,7 +11,7 @@
         />
         <link
             rel="stylesheet"
-            href="/static/mypage/web/css/mypage-refrigerator.css"
+            href="/static/mypage/web/css/mypage-recipe.css"
         />
     </head>
     <body>
@@ -26,7 +26,7 @@
                         ></span>
                     </a>
                     <!-- 위에 타이틀 -->
-                    <span class="top-warp-in-span-title">내 냉장고</span>
+                    <span class="top-warp-in-span-title">내 레시피</span>
                 </div>
             </div>
         </nav>
@@ -73,16 +73,144 @@
             <div class="main-category">
                 <ul class="main-category-ul">
                     <!-- 세부 하나하나 -->
-                    <li class="main-category-li active">
+                    <li class="main-category-li">
                         <a href="/"> 내 냉장고 </a>
                     </li>
-                    <li class="main-category-li">
+                    <li class="main-category-li active">
                         <a href="/"> 내 레시피 </a>
                     </li>
                     <li class="main-category-li">
                         <a href="/"> 내 정보 수정 </a>
                     </li>
                 </ul>
+                <div class="main-re">
+                    <!-- 레시피 없는경우 -->
+                    <!-- <div class="main-re-none">
+                        <img
+                            src="https://recipe1.ezmember.co.kr/img/none_recipe.png"
+                            alt=""
+                            class="main-re-none-img"
+                        />
+                        <p>레시피를 직접 올려보세요!</p>
+                        자랑하고 싶은 나만의 레시피! 공유하고 싶은
+                        <br />
+                        멋진 레시피를 등록해주세요!
+                        <br />
+                        <a href="/" style="margin-top: 10px"
+                            >레시피 등록하기!</a
+                        >
+                    </div> -->
+                    <!-- 레시피 등록된 경우 -->
+                    <div class="main-re-on">
+                        <ul class="main-re-on-ul">
+                            <!-- 여기서부터 1개씩 나오는거임 -->
+                            <li>
+                                <!-- 이미지 -->
+                                <div class="main-re-on-ul-img">
+                                    <a href="/">
+                                        <img
+                                            src="https://recipe1.ezmember.co.kr/cache/recipe/2019/04/06/f790edb9ffef5e49f4b3e573116a4ee61_m.jpg"
+                                            alt=""
+                                        />
+                                    </a>
+                                </div>
+                                <!-- 하단 설명 -->
+                                <div class="main-re-on-ul-con">
+                                    <div class="main-re-on-ul-con-name">
+                                        <a href="/"
+                                            >상추비빔밥 참치쌈장에 비벼 먹으면
+                                            꿀맛!</a
+                                        >
+                                    </div>
+                                    <div class="main-re-on-ul-con-like">
+                                        <div>
+                                            <b>n</b>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <!-- 이미지 -->
+                                <div class="main-re-on-ul-img">
+                                    <a href="/">
+                                        <img
+                                            src="https://recipe1.ezmember.co.kr/cache/recipe/2019/04/06/f790edb9ffef5e49f4b3e573116a4ee61_m.jpg"
+                                            alt=""
+                                        />
+                                    </a>
+                                </div>
+                                <!-- 하단 설명 -->
+                                <div class="main-re-on-ul-con">
+                                    <div class="main-re-on-ul-con-name">
+                                        <a href="/"
+                                            >상추비빔밥 참치쌈장에 비벼 먹으면
+                                            꿀맛!</a
+                                        >
+                                    </div>
+                                    <div class="main-re-on-ul-con-like">
+                                        <div>
+                                            <b>n</b>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <!-- 이미지 -->
+                                <div class="main-re-on-ul-img">
+                                    <a href="/">
+                                        <img
+                                            src="https://recipe1.ezmember.co.kr/cache/recipe/2019/04/06/f790edb9ffef5e49f4b3e573116a4ee61_m.jpg"
+                                            alt=""
+                                        />
+                                    </a>
+                                </div>
+                                <!-- 하단 설명 -->
+                                <div class="main-re-on-ul-con">
+                                    <div class="main-re-on-ul-con-name">
+                                        <a href="/"
+                                            >상추비빔밥 참치쌈장에 비벼 먹으면
+                                            꿀맛!</a
+                                        >
+                                    </div>
+                                    <div class="main-re-on-ul-con-like">
+                                        <div>
+                                            <b>n</b>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <!-- 이미지 -->
+                                <div class="main-re-on-ul-img">
+                                    <a href="/">
+                                        <img
+                                            src="https://recipe1.ezmember.co.kr/cache/recipe/2019/04/06/f790edb9ffef5e49f4b3e573116a4ee61_m.jpg"
+                                            alt=""
+                                        />
+                                    </a>
+                                </div>
+                                <!-- 하단 설명 -->
+                                <div class="main-re-on-ul-con">
+                                    <div class="main-re-on-ul-con-name">
+                                        <a href="/"
+                                            >상추비빔밥 참치쌈장에 비벼 먹으면
+                                            꿀맛!</a
+                                        >
+                                    </div>
+                                    <div class="main-re-on-ul-con-like">
+                                        <div>
+                                            <b>n</b>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                        <!-- 더보기 -->
+                        <div class="main-re-on-add">
+                            <a href="/">더보기</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <!-- 하단부분 -->
