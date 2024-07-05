@@ -1,0 +1,521 @@
+:root {
+    --swiper-navigation-size: 44px;
+}
+
+:root {
+    --swiper-theme-color: #007aff;
+}
+
+html, body {
+    color: #333;
+    background: #ededed;
+}
+
+html {
+    -webkit-text-size-adjust: none;
+    -moz-text-size-adjust: none;
+    -ms-text-size-adjust: none;
+}
+
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+html {
+    -webkit-font-smoothing: antialiased;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    position: relative;
+    min-height: 100%;
+}
+
+* {
+    max-height: 100000px;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+:root {
+    view-transition-name: root;
+}
+
+html {
+    display: block;
+    -webkit-locale: "ko";
+}
+
+*:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #f1f1f2;
+    padding: 62px 0 0 0;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    font-size: 12px;
+    line-height: 1.8;
+    color: #2d2d2d;
+}
+
+.main-top{
+    z-index: 9999998;
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+    top: 0;
+    border-width: 0 0 1px;
+    border-radius: 0;
+    position: fixed;
+    right: 0;
+    left: 0;
+    min-height: 61px;
+    margin-bottom: 25px;
+    border: 1px solid transparent;
+    display: block;
+}
+
+.main-top-in{
+    max-width: 640px;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.main-top-in-warp{
+    margin-right: 0;
+    margin-left: 0;
+    vertical-align: middle;
+    height: 61px;
+    padding: 6px 12px 0 10px;
+}
+
+.main-top-in-search{
+    background: url(//recipe1.ezmember.co.kr/img/mobile/icon_search6_1.png) left top no-repeat;
+    background-size: 26px auto;
+    display: block;
+    width: 26px;
+    height: 30px;
+    position: absolute;
+    right: 12px;
+    top: 15px;
+    color: #2d2d2d;
+    text-decoration: none;
+}
+
+.main-top-in-back{
+    olor: #2d2d2d;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.main-top-in-back span{
+    color: #fff;
+    padding: 11px 4px 8px 0;
+    display: inline-block;
+    vertical-align: middle;
+    background: url(//recipe1.ezmember.co.kr/img/mobile/icon_back5.png) 5px 6px no-repeat;
+    background-size: 11px;
+    font-size: 0px !important;
+    width: 24px;
+    height: 39px;
+    margin: 6px 0 0 5px;
+    position: relative;
+    top: 1px;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}
+
+.main-top-in-bar{
+    color: #000;
+    text-align: center;
+    font-size: 16px;
+    line-height: 20px;
+    display: inline-block;
+    width: calc(100% - 50px);
+    vertical-align: middle;
+    padding: 3px 14px 0 0;
+    word-break: break-all;
+    font-weight: bold;
+}
+
+.main-top-in-bar-input{
+    padding: 6px 12px 8px;
+    font-size: 14px;
+    font-weight: normal;
+    background: url(//recipe1.ezmember.co.kr/img/mobile/2022/icon_search.png) #f8f8fa 12px 11px no-repeat;
+    border: none;
+    -webkit-box-shadow: none;
+    height: 40px;
+    color: #999;
+    border-radius: 8px;
+    line-height: 1;
+    display: block;
+    width: 100%;
+    margin: 0;
+    background-size: 0px;
+    margin-top: -2px;
+}
+
+.main-re{
+    max-width: 640px;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.main-category{
+    background-color: white;
+    height: 20px;
+    margin: 0;
+    padding: 0;
+    margin-top: 0px;
+}
+
+.main-category-in{
+    padding: 0 10px 0 0;
+    float: right;
+    vertical-align: bottom;
+    margin: 0;
+}
+
+.main-category-in-group{
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+}
+
+.main-category-in-group-bu{
+    padding: 10px;
+    border: none;
+    -webkit-box-shadow: none;
+    position: relative;
+    float: left;
+    color: #000000;
+    background-color: #ffffff;
+    display: inline-block;
+    margin: 0;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    user-select: none;
+    background-image: none;
+    border-radius: 4px;
+    margin-left: 0;
+    font-family: inherit;
+    -webkit-appearance: button;
+    text-transform: none;
+    overflow: visible;
+    font: inherit;
+    font-size: 13px;
+}
+
+.main-category-in-group-bu img{
+    vertical-align: middle;
+    margin-left: 4px;
+    margin-top: -2px;
+    border: 0;
+}
+
+.main-re-list{
+    background-color: white;
+    padding: 24px 14px 0;
+    margin: 0;
+}
+
+.main-re-list-ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main-recipe{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    padding-bottom: 28px;
+}
+
+.main-recipe-img{
+    display: table-cell;
+    vertical-align: middle;
+    width: 160px;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.main-recipe-img a{
+    color: inherit;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.main-recipe-img a img{
+    width: 140px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 0;
+    vertical-align: middle;
+}
+
+.main-recipe-con{
+    display: table-cell;
+    vertical-align: middle;
+
+    width: 1000px;
+    margin: 0;
+    padding: 0;
+    padding-left: 14px;
+}
+
+.main-recipe-con-name{
+    font-size: 14px;
+    letter-spacing: -0.04em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    word-wrap: break-word;
+    white-space: normal;
+    line-height: 1.4;
+
+    margin: 0;
+    padding: 0;
+    margin-bottom: 8px;
+}
+
+.main-recipe-con-name a{
+    color: inherit;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.main-recipe-con-pe{
+    line-height: 1;
+
+    color: #999;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 8px;
+}
+
+.main-recipe-con-pe a{
+    color: #999;
+    font-size: 12px;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.main-recipe-con-like{
+    line-height: 1.2;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 8px;
+}
+
+.main-recipe-con-like-star{
+    line-height: 1;
+    background: url(//recipe1.ezmember.co.kr/img/mobile/icon_star2_on.png) left top no-repeat;
+    background-size: 14px;
+    padding: 0 4px 0 16px;
+    display: inline-block;
+    font-size: 13px;
+    margin: 0;
+}
+
+.main-recipe-con-like-star b{
+    margin-right: 2px;
+    font-size: 13px;
+    vertical-align: 0;
+    font-family: 'Roboto';
+    font-weight: 500;
+}
+
+.main-recipe-con-like-count{
+    display: inline-block;
+    line-height: 1;
+    color: #999;
+    background: url(//recipe1.ezmember.co.kr/img/mobile/icon_dot7.png) left 2px no-repeat;
+    background-size: 1px 12px;
+    padding-left: 8px;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+}
+
+.main-recipe-like{
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0 0 0 10px;
+    margin: 0;
+}
+
+.main-recipe-like a{
+    color: inherit;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.main-recipe-like a img{
+    width: 22px;
+    border: 0;
+    vertical-align: middle;
+}
+
+.bottem{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #fff;
+    border-top: 1px solid #dadada;
+    height: 56px;
+    margin: 0;
+    padding: 0;
+}
+
+.bottem-ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 0 2px;
+    list-style: none;
+}
+
+.bottem-ul-home{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.bottem-ul-home-a{
+    background: url(//recipe1.ezmember.co.kr/img/mobile/2022/icon_footer_home_on.png) no-repeat center 1px;
+    background-size: 23px auto;
+    color: #46ae4f;
+    display: block;
+    padding-top: 26px;
+    width: 100%;
+    text-align: center;
+    font-size: 11px;
+}
+
+.bottem-ul-re{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.bottem-ul-re-a{
+    background: url(//recipe1.ezmember.co.kr/img/mobile/2022/icon_footer_rcp.png) no-repeat center 1px;
+    background-size: 23px auto;
+    display: block;
+    padding-top: 26px;
+    width: 100%;
+    text-align: center;
+    font-size: 11px;
+    color: #000;
+    text-decoration: none;
+}
+
+.bottem-ul-like{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.bottem-ul-like-a{
+    background: url(//recipe1.ezmember.co.kr/img/mobile/2022/icon_footer_scrap.png) no-repeat center 1px;
+    background-size: 23px auto;
+    display: block;
+    padding-top: 26px;
+    width: 100%;
+    text-align: center;
+    font-size: 11px;
+    color: #000;
+    text-decoration: none;
+}
+
+.bottem-ul-my{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.bottem-ul-my-a{
+    background: url(//recipe1.ezmember.co.kr/img/mobile/2022/icon_footer_my.png) no-repeat center 1px;
+    background-size: 23px auto;
+    display: block;
+    padding-top: 26px;
+    width: 100%;
+    text-align: center;
+    font-size: 11px;
+    color: #000;
+    text-decoration: none;
+}

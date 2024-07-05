@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>마이페이지 :: 내 개인 정보</title>
+        <link
+            rel="shortcut icon"
+            href="/staticfiles/images/teenplay_logo/logo1.png"
+            type="image/x-icon"
+        />
+        <link rel="stylesheet" href="/static/mypage/web/css/mypage-info.css" />
+    </head>
+    <body>
+        <!-- 사실상 헤더 -->
+        <nav class="top">
+            <div class="top-warp">
+                <div class="top-warp-in">
+                    <a href="/" class="top-warp-in-a">
+                        <span
+                            class="top-warp-in-span"
+                            aria-hidden="true"
+                        ></span>
+                    </a>
+                    <!-- 위에 타이틀 -->
+                    <span class="top-warp-in-span-title">내 개인정보</span>
+                </div>
+            </div>
+        </nav>
+        <!-- 사실상 몸통 -->
+        <div class="main">
+            <!-- 개인정보? 상단 사진 등 나오는 곳 -->
+            <div class="main-top">
+                <div>
+                    <!-- 프사 들어가는곳 -->
+                    <div class="main-top-img">
+                        <img
+                            src="https://recipe1.ezmember.co.kr/cache/rpf/2024/07/03/bf99dc70046f37f895063d46988df5fc1.jpg"
+                            alt=""
+                            class="main-top-img-in"
+                        />
+                    </div>
+                    <!-- 우측 정보 -->
+                    <div class="main-top-info">
+                        <p class="main-top-info-name">조관익</p>
+                        <p class="main-top-info-warp">
+                            <span>
+                                <a href="">
+                                    내 레시피
+                                    <b>n</b>
+                                </a>
+                            </span>
+                            <span>
+                                <a href="">
+                                    내가 누른 좋아요
+                                    <b>n</b>
+                                </a>
+                            </span>
+                            <span>
+                                <a href="">
+                                    받은 좋아요
+                                    <b>n</b>
+                                </a>
+                            </span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- 카테고리? -->
+            <div class="main-category">
+                <ul class="main-category-ul">
+                    <!-- 세부 하나하나 -->
+                    <li class="main-category-li">
+                        <a href="/"> 내 냉장고 </a>
+                    </li>
+                    <li class="main-category-li">
+                        <a href="/"> 내 레시피 </a>
+                    </li>
+                    <li class="main-category-li active">
+                        <a href="/"> 내 정보 수정 </a>
+                    </li>
+                    <li class="main-category-li">
+                        <a href="/"> 설정 </a>
+                    </li>
+                </ul>
+                <div class="main-info">
+                    <div>
+                        <div>
+                            <div class="modify-target-title">이메일(ID)</div>
+                            <!-- 회원의 이메일이 들어가는 자리 -->
+                            <div class="profile-email">iki980411@naver.com</div>
+                        </div>
+                        <div class="nickname-box">
+                            <div class="modify-target-title">이름</div>
+                            <div class="nickname-view">
+                                <span>조관익</span>
+                                <button class="change-btn" type="button">
+                                    변경
+                                </button>
+                            </div>
+                            <div class="nickname-modify" style="display: none">
+                                <div>
+                                    <div>
+                                        <input
+                                            class="nickname-input"
+                                            autocomplete="off"
+                                            type="text"
+                                            placeholder="이름을 입력해 주세요"
+                                            name="member-nickname"
+                                        />
+                                    </div>
+                                </div>
+                                <a class="nickname-fix">확인</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="profile-title">프로필 업로드</div>
+                        <div class="profile-setting">
+                            <div class="profile-thumbnail-box">
+                                <!-- 프로필 썸네일이 들어가는 자리 -->
+
+                                <img
+                                    src="http://127.0.0.1:10000/upload/member/2024/03/14/KakaoTalk_20230617_155815148_19.jpg"
+                                    class="profile-thumbnail"
+                                    id="preview-thumbnail"
+                                />
+                            </div>
+                            <button
+                                class="profile-upload-btn"
+                                type="button"
+                                onclick="openFileInput()"
+                            >
+                                프로필 업로드
+                            </button>
+                        </div>
+                        <input
+                            id="profile-input"
+                            type="file"
+                            name="photo"
+                            accept="image/*"
+                            style="display: none"
+                            onchange="previewImage(this)"
+                        />
+                        <label
+                            class="profile-input-label"
+                            for="profile-input"
+                        ></label>
+                        <input class="profile-input-thumbnail" />
+                    </div>
+                    <div class="withdrawal-save">
+                        <a class="withdrawal-link" href="/"
+                            >이게 왜 냉장고에있지? 탈퇴하기</a
+                        >
+                        <div>
+                            <button class="save-btn" type="button">
+                                저장하기
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 하단부분 -->
+        <div class="bottem" style="z-index: 21000">
+            <ul class="bottem-ul">
+                <!-- 카테고리임 사실상 -->
+                <li class="bottem-ul-home">
+                    <a href="/" class="bottem-ul-home-a">홈</a>
+                </li>
+                <li class="bottem-ul-re">
+                    <a href="/" class="bottem-ul-re-a">레시피</a>
+                </li>
+                <li class="bottem-ul-like">
+                    <a href="/" class="bottem-ul-like-a">좋아요</a>
+                </li>
+                <li class="bottem-ul-my">
+                    <a href="/" class="bottem-ul-my-a">MY</a>
+                </li>
+            </ul>
+        </div>
+    </body>
+</html>
